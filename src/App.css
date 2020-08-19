@@ -1,0 +1,8 @@
+html, body, #root, #root>div {
+  height: 100%;
+  width: 100%;
+}
+
+.list-group-item {
+  padding: .75rem 0.25rem!important;
+}

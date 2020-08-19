@@ -1,0 +1,26 @@
+@media only screen and (max-width: 767px) {
+  .header-column {
+    display: none;
+  }
+}
+
+/* updated */
+.glyphicon-menu-hamburger {
+  font-size: 20px;
+  color: #fff;
+}
+.list1BgColor.list1HoverEffect.list-group-item img {
+  width: 30px;
+}
+.list1BgColor.list1HoverEffect.list-group-item {
+  padding: 15px 10px !important;
+}
+.listGroupCstm {
+  height: 100%;
+  width: 70px;
+  text-align: center;
+}
+.list1BgColor.list1HoverEffect.list-group-item.hamBurgercstm {
+  text-align: center !important;
+  padding: 25px 10px 30px 10px !important;
+}

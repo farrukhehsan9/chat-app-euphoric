@@ -1,0 +1,154 @@
+.list1BgColor {
+    background: #1c232b;
+}
+
+.list1HoverEffect {
+    cursor: pointer;
+}
+
+.list1HoverEffect:hover {
+    background: #343d46;
+}
+
+.list2BgColor {
+    background: #222931;
+}
+
+.list2HoverEffect {
+    cursor: pointer;
+}
+
+.list2HoverEffect:hover {
+    background: #343d46;
+}
+
+.list2TextColor {
+    color: #cccccc;
+}
+
+.list3BgColor {
+    background: #2c333b;
+}
+
+.list3HoverEffect {
+    cursor: pointer;
+}
+
+.list3HoverEffect:hover {
+    background: #343d46;
+}
+
+.searchBox {
+    background-color: #4c4c4c;
+    width: 100%;
+    outline: none;
+    padding: 4px;
+    padding-left: 40px;
+    color: #cccccc;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px
+}
+
+.searchBoxIcon {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 25px
+}
+
+.bubble {
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+}
+
+.bubble::before {
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform: rotate( 29deg) skew( -35deg);
+    -moz-transform: rotate( 29deg) skew( -35deg);
+    -ms-transform: rotate( 29deg) skew( -35deg);
+    -o-transform: rotate( 29deg) skew( -35deg);
+    -webkit-transform: rotate( 29deg) skew( -35deg);
+    width: 20px;
+}
+
+.me {
+    float: left;
+    margin: 5px 45px 5px 20px;
+    background: white;
+}
+
+.me::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4);
+    left: -9px;
+    background: white;
+}
+
+.you {
+    float: right;
+    margin: 5px 20px 5px 45px;
+    background: #0184ff;
+    color: white;
+    width: -webkit-fill-available;
+}
+
+.you::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4);
+    right: -9px;
+    background: #0184ff;
+}
+/* updated */
+.dashListGrp {
+    height: 100%;
+    margin-left: -42px;
+    box-shadow: -5px 0px 6px 0px #161a1e;
+}
+.dashChildGrp {
+    box-shadow: -5px 0px 6px 0px #161a1e !important;
+}
+.list2BgColor.list2HoverEffect.list-group-item, .list3BgColor.list-group-item {
+    padding: 7px 20px !important;
+}
+.list2BgColor.inboxCstm {
+    text-align: center !important;
+    padding: 25px 20px 30px 20px !important;
+}
+.list3BgColor.cstmSearchBar {
+    padding: 25px 20px 0px 20px !important;
+}
+.d-flex.align-items-center.justify-content-between h3 {
+    font-size: 16px;
+}
+.searchBoxIcon {
+    color: #717474;
+    top: 34px;
+    left: 29px;
+}
+.list3BgColor.px-0.list-group-item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.senderName, .list2TextColor.msgHint {
+    font-size: 17px !important;
+}
+.text-right {
+    text-align: right;
+}
+
+.mainLast {
+    background-color: #F6F6F6;
+}
+
+@media only screen and (max-width: 767px) {
+    .dashListGrp {
+        margin-left: 0 !important;
+    }
+}

@@ -1,0 +1,40 @@
+
+.me {
+    float: left;
+    margin: 4px 45px 35px 20px;
+    background: #F6F6F6;
+}
+
+.me::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4);
+    left: -9px;
+    background: #F6F6F6;
+}
+
+
+.you {
+    float: right;
+    margin: 5px 20px 30px 45px;
+    background: #0184ff;
+    color: white;
+    width: -webkit-fill-available;
+}
+
+.box-border {
+    font-size: 20px;
+    border: 1px solid #D6D9DE;
+    color: grey;
+}
+
+.input-main {
+    padding: 10px 10px 10px 0px;
+    background: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    /* border-bottom-width: 2px;
+    border-bottom-color: #D6D9DE; */
+    border: 1px solid #D6D9DE;
+
+}
